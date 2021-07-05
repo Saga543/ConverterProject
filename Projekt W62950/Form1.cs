@@ -220,7 +220,7 @@ namespace Projekt_W62950
         /// </summary>
         private void bKonwertuj_Click(object sender, EventArgs e)
         {
-            if(rbSL.Checked == true && rb4.Checked == true)                                  //HEX
+            if(rbSL.Checked == true && rb4.Checked == true)                                  //HEX.
             {
                 if (czyPasuje(textBox1.Text) == true && textBox1.Text.Length > 0)
                 {
