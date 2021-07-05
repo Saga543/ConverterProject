@@ -236,7 +236,7 @@ namespace Projekt_W62950
                 wartosc = Convert.ToDecimal(textBox1.Text);
                 if (wartosc >= 0)
                 {
-                    if (rbDługosc.Checked == true)                     // DŁUGOŚĆ
+                    if (rbDługosc.Checked == true)                     // DŁUGOŚĆ.
                     {
                         if (rb1.Checked == true)                            // MM
                         {
