@@ -238,7 +238,7 @@ namespace Projekt_W62950
                 {
                     if (rbDługosc.Checked == true)                     // DŁUGOŚĆ.
                     {
-                        if (rb1.Checked == true)                            // MM
+                        if (rb1.Checked == true)                            // MM.
                         {
                             textBox2.Text = Convert.ToString(wartosc);
                             textBox3.Text = Convert.ToString(decimal.Round(dzielenie(wartosc, 10),4));
