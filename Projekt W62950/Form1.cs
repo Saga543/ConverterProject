@@ -247,7 +247,7 @@ namespace Projekt_W62950
                             textBox6.Text = Convert.ToString(decimal.Round(dzielenie(wartosc, 1000000), 12));
                         }
 
-                        else if (rb2.Checked == true)                     // CM
+                        else if (rb2.Checked == true)                     // CM.
                         {
                             textBox2.Text = Convert.ToString(mnozenie(wartosc, 10));
                             textBox3.Text = Convert.ToString(wartosc);
